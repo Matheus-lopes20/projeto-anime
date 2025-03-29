@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    color: #fff;
+    background-image: url('../images/tela.jpeg');
+    transition: background-image 0.5s ease;
+}
+
+header {
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+.anime-card {
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.7);
+    margin: 10px;
+    padding: 15px;
+    border-radius: 10px;
+    width: 200px;
+    text-align: center;
+}
+
+.anime-card:hover {
+    background-color: rgba(0, 0, 0, 0.9);
+    transform: scale(1.05);
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.anime-card img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.anime-card img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.anime-card p {
+    font-size: 0.9em;
+    margin: 5px 0;
+}
+
+.anime-card h2 {
+    font-size: 1.2em;
+    margin: 10px 0;
+}
